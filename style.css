@@ -184,7 +184,8 @@ body {
     margin: 0 10px;
 }
 
-.add-to-cart, .buy-now {
+.add-to-cart,
+.buy-now {
     display: block;
     width: 100%;
     max-width: 200px;
@@ -278,7 +279,7 @@ body {
 }
 
 
-/* welcome section 2*/ 
+/* welcome section 2*/
 
 /* General Section Styling for Mobile View */
 .growth-maximizer-section {
@@ -314,7 +315,7 @@ body {
 }
 
 .growth-maximizer-image img {
-    width: 100px;
+    width: 300px;
     height: auto;
     margin-bottom: 15px;
 }
@@ -383,7 +384,8 @@ body {
     display: flex;
     justify-content: center;
     padding: 20px;
-    background-color: #2f6d37; /* Green background behind the card */
+    background-color: #2f6d37;
+    /* Green background behind the card */
 }
 
 .growth-benefits-background {
@@ -393,16 +395,19 @@ body {
 
 /* Card Styling */
 .growth-benefits-card {
-    background-color: #ffffff; /* White background for the card */
+    background-color: #ffffff;
+    /* White background for the card */
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px; /* Space between cards */
+    margin-bottom: 20px;
+    /* Space between cards */
 }
 
 /* Header Section (Only for First Card) */
 .growth-benefits-header {
-    background-color: #2f6d37; /* Dark green background */
+    background-color: #2f6d37;
+    /* Dark green background */
     color: #ffffff;
     padding: 20px;
     text-align: center;
@@ -416,7 +421,8 @@ body {
 
 .growth-benefits-header p {
     font-size: 1em;
-    color: #c9e3d3; /* Light green text color */
+    color: #c9e3d3;
+    /* Light green text color */
     margin-top: 10px;
     line-height: 1.5;
 }
@@ -424,7 +430,8 @@ body {
 /* White Divider Line */
 .growth-benefits-divider-white {
     height: 3px;
-    background-color: #ffffff; /* White line dividing header and image */
+    background-color: #ffffff;
+    /* White line dividing header and image */
 }
 
 /* Image Container */
@@ -437,14 +444,16 @@ body {
 
 .growth-benefits-image-container img {
     width: 100%;
-    max-width: 180px; /* Ensures image fits nicely on mobile */
+    max-width: 350px;
+    /* Ensures image fits nicely on mobile */
     height: auto;
 }
 
 /* Green Divider Line */
 .growth-benefits-divider-green {
     height: 3px;
-    background-color: #2f6d37; /* Green line dividing image and text */
+    background-color: #2f6d37;
+    /* Green line dividing image and text */
 }
 
 /* Description Section */
@@ -465,4 +474,548 @@ body {
     color: #666;
     margin-top: 5px;
     line-height: 1.5;
+}
+
+
+.custom-how-it-works {
+    width: 100%;
+    padding: 20px;
+    background-color: #f1f8e9;
+    color: #388e3c;
+}
+
+.custom-title {
+    text-align: center;
+    color: #2e7d32;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.custom-description {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+
+.custom-divider {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 15px 0;
+}
+
+.custom-benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.custom-benefit-item {
+    display: flex;
+    align-items: start;
+    gap: 10px;
+}
+
+.custom-benefit-item span {
+    color: #43a047;
+    font-size: 18px;
+}
+
+.custom-benefit-item strong {
+    font-size: 15px;
+    color: #2e7d32;
+}
+
+.custom-benefit-item p {
+    font-size: 13px;
+    color: #4e342e;
+    margin-top: 3px;
+}
+
+.custom-growth-plates {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.custom-growth-plate {
+    width: 100%;
+    text-align: center;
+}
+
+.custom-growth-plate img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.custom-growth-plate p {
+    font-size: 12px;
+    color: #2e7d32;
+    margin-top: 5px;
+}
+
+
+
+.xrQwTj-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.bTe7x-image img {
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+}
+
+
+.rPnq1v-section {
+    max-width: 400px;
+    width: 100%;
+    background-color: #007B3D;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.vT2jW-title {
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.j8Pmd-description {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.dZwVb-card {
+    background-color: #007B3D;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.xN8y3-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.Qd3r6-subtitle {
+    color: yellow;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.Opq6X-text {
+    color: white;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+
+.Zx9lp-container {
+    max-width: 400px;
+    width: 100%;
+    background-color: #e8f5e9;
+    border-radius: 12px;
+    text-align: center;
+    padding: 15px;
+}
+
+.wT5z-header {
+    margin-bottom: 20px;
+}
+
+.Od3Hd-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.uR3pT-herb-card {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+.Mi8yJ-herb-image {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.Fo9s-title {
+    font-size: 18px;
+    color: #007B3D;
+    margin-bottom: 5px;
+}
+
+.fR4z-description {
+    font-size: 14px;
+    color: #555;
+}
+
+
+
+/* CSS for Mobile Display */
+/* CSS for Mobile Display */
+.cnmb_qwer_section {
+    padding: 20px;
+    background-color: #006e3d;
+    /* Adjust to match the design */
+    color: #ffffff;
+    /* Text color */
+}
+
+.cnmb_qwer_text-group {
+    margin-bottom: 20px;
+}
+
+.cnmb_qwer_text-header h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.cnmb_qwer_text-header p {
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.cnmb_qwer_feature {
+    margin-bottom: 15px;
+}
+
+.cnmb_qwer_feature h3 {
+    font-size: 1.2rem;
+    color: #ffb400;
+    /* Adjust to match the yellow text */
+    display: flex;
+    align-items: center;
+}
+
+.cnmb_qwer_icon {
+    margin-right: 8px;
+}
+
+.cnmb_qwer_feature p {
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+.cnmb_qwer_image-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.cnmb_qwer_image-text h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #ffb400;
+    /* Adjust to match the yellow heading */
+}
+
+.cnmb_qwer_image-text p {
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.cnmb_qwer_image-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cnmb_qwer_image {
+    width: 100%;
+    /* Adjust width as necessary */
+    height: auto;
+}
+
+
+
+/* CSS Styling */
+.consumer-studies-section {
+    background-color: #ffffff;
+    padding: 16px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .cs-heading {
+    font-size: 1.5em;
+    color: #333333;
+    margin-bottom: 8px;
+  }
+  
+  .cs-description {
+    font-size: 0.9em;
+    color: #666666;
+    margin-bottom: 16px;
+  }
+  
+  .cs-stat {
+    background-color: #006b36;
+    color: #ffffff;
+    margin-bottom: 16px;
+    padding: 16px;
+    border-radius: 8px;
+  }
+  
+  .cs-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+  }
+  
+  .cs-icon {
+    font-size: 1.5em;
+    margin-right: 8px;
+  }
+  
+  .cs-percentage {
+    font-size: 1.8em;
+    font-weight: bold;
+  }
+  
+  .cs-text {
+    font-size: 0.9em;
+  }
+  
+
+
+  /* CSS Styling */
+.height-health-section {
+    background-color: #f5f5e6;
+    padding: 16px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .hh-heading {
+    font-size: 1.4em;
+    color: #2c572f;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .hh-description {
+    font-size: 0.9em;
+    color: #4a4a4a;
+    margin-bottom: 16px;
+  }
+  
+  .hh-card {
+    position: relative;
+    background-color: #006b36;
+    border-radius: 12px;
+    margin-top: 10px;
+    overflow: hidden;
+  }
+  
+  .hh-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+
+  /* CSS Styling */
+/* CSS Styling */
+.usage-section {
+    background-color: #006b36;
+    padding: 16px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .usage-heading {
+    font-size: 1.4em;
+    color: #fefae0;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .usage-description {
+    font-size: 0.9em;
+    color: #fefae0;
+    margin-bottom: 16px;
+  }
+  
+  .usage-card {
+    margin-top: 15px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .usage-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 12px;
+  }
+  
+  .usage-subheading {
+    font-size: 1.2em;
+    color: #006b36;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .usage-dosage-text {
+    font-size: 0.9em;
+    color: #4a4a4a;
+  }
+
+
+  /* Unique class names to avoid conflicts */
+.g6f9p-section {
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.g6f9p-text {
+    font-size: 18px;
+    color: #d32f2f; /* Red color for the text */
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.g6f9p-button-container {
+    margin-bottom: 20px;
+}
+
+.g6f9p-button {
+    background-color: #ffc107; /* Yellow color for the button */
+    border: none;
+    border-radius: 25px;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+}
+
+.g6f9p-button:hover {
+    background-color: #ffb300; /* Slightly darker yellow on hover */
+}
+
+.g6f9p-image-placeholder {
+    width: 100%;
+    height: auto;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.g6f9p-image-placeholder img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+    display: block;
+}
+
+
+
+
+/* Contact Form Section */
+#contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: 20px;
+}
+
+/* Form Title */
+#contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input Groups */
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border 0.3s ease;
+}
+
+/* On Focus Input Style */
+.input-group input:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Submit Button */
+#submit-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#submit-btn:disabled {
+    background-color: #ccc;
+}
+
+#submit-btn:hover {
+    background-color: #45a049;
+}
+
+/* Message Display */
+#msg {
+    text-align: center;
+    margin-top: 10px;
+    color: #f44336;
+}
+
+/* Mobile Error Message */
+#mobileerror {
+    text-align: center;
+    color: #f44336;
+    font-size: 14px;
+}
+
+/* Responsiveness for Mobile Devices */
+@media (max-width: 600px) {
+    #contact-form {
+        padding: 15px;
+    }
 }
