@@ -23,13 +23,13 @@
       </div>
 
       <!-- Certification Icons -->
-      <div class="certifications">
+      <!-- <div class="certifications">
         <img src="icon1.png" alt="Certification 1" class="cert-icon" />
         <img src="icon2.png" alt="Certification 2" class="cert-icon" />
         <img src="icon3.png" alt="Certification 3" class="cert-icon" />
         <img src="icon4.png" alt="Certification 4" class="cert-icon" />
       </div>
-    </div>
+    </div> -->
 
     <!-- New Product Info Section -->
     <div class="new-product-info">
@@ -66,25 +66,28 @@
         <p>✅ 100% Natural with No Side Effects</p>
         <p>✅ 7-Day Money-Back Guarantee</p>
       </div>
-
+    </div>
+    <div class="new">
       <!-- Quantity and Cart Section -->
-      <div class="quantity-cart">
-        <label for="quantity">Qty</label>
-        <select id="quantity">
-          <option>60 Capsules</option>
-          <option>120 Capsules</option>
-        </select>
-        <div class="quantity-buttons">
-          <button>-</button>
-          <span>1</span>
-          <button>+</button>
-        </div>
-        <button class="add-to-cart">Add to cart</button>
-        <button class="buy-now">Buy Now</button>
-      </div>
+      <section id="contact-form">
+        <form name="google-sheet" id="order-info">
+            <div class="input-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name">
+            </div>
+            <div class="input-group">
+                <label for="contact">Contact Number</label>
+                <input type="tel" id="contact" name="contact" required placeholder="Enter your contact number" oninput="check_mobile_number(this.value)">
+                <div id="mobileerror"></div>
+            </div>
+            <button type="submit" id="submit-btn">Submit</button>
+            <div id="msg"></div>
+        </form>
+    </section>
+  </div>
 
       <!-- Feature Icons -->
-      <div class="feature-icons">
+      <!-- <div class="feature-icons">
         <div class="feature-icon">
           <img src="icon1.png" alt="50,000+ Happy Customers" />
           <p>50,000+ Happy Customers</p>
@@ -100,9 +103,9 @@
         <div class="feature-icon">
           <img src="icon4.png" alt="Safe and Effective" />
           <p>Safe and Effective</p>
-        </div>
-      </div>
-    </div>
+        </div> -->
+      <!-- </div>
+    </div> -->
 
     <!-- Ministry of Ayush Approval Section -->
     <div class="ayush-approval">
@@ -557,21 +560,7 @@
 </section>
 <section >
 
-  <section id="contact-form">
-    <form name="google-sheet" id="order-info">
-        <div class="input-group">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required placeholder="Enter your name">
-        </div>
-        <div class="input-group">
-            <label for="contact">Contact Number:</label>
-            <input type="tel" id="contact" name="contact" required placeholder="Enter your contact number" oninput="check_mobile_number(this.value)">
-            <div id="mobileerror"></div>
-        </div>
-        <button type="submit" id="submit-btn">Submit</button>
-        <div id="msg"></div>
-    </form>
-</section>
+  
 
 <script>
     const scriptURL = "https://script.google.com/macros/s/AKfycbzXlMxHfbG0pr7n4UGWDZg12OTPMSXi_ujDC150nwmheXRxSFKE3qSGPV9Xsc46TXeZ/exec"; // Replace with your Web App URL
