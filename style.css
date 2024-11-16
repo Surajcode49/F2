@@ -886,6 +886,7 @@ body {
     background-color: #ffffff;
     text-align: center;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 .g6f9p-text {
@@ -1026,4 +1027,30 @@ body {
 
 
 
-.new {}
+/* Styling for the fixed "Order Now" button */
+.order-now-btn {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #28a745; /* Green color */
+    color: white;
+    border: none;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    z-index: 1000; /* Ensures it stays on top */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    border-top: 2px solid #218838;
+}
+
+.order-now-btn:hover {
+    background-color: #218838; /* Darker green for hover effect */
+}
+
+/* Additional margin for better spacing */
+.contact-section-xyz {
+    margin-top: 100px;
+}

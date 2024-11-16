@@ -5,6 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product Promotion</title>
     <link rel="stylesheet" href="style.css" />
+ 
+     <!-- Facebook Pixel Code -->
+     <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1268276641182214');
+      fbq('track', 'PageView');
+      </script>
+      <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1268276641182214&ev=PageView&noscript=1"
+      /></noscript>
+      
+
   </head>
   <body>
     <!-- Existing Product Section -->
@@ -69,7 +88,7 @@
     </div>
     <div class="new">
       <!-- Quantity and Cart Section -->
-      <section id="contact-form">
+      <section id="contact-form" class="contact-section-xyz">
         <form name="google-sheet" id="order-info">
             <div class="input-group">
                 <label for="name">Name</label>
@@ -539,7 +558,7 @@
   </div>
 
   <!-- Button -->
-  <div class="g6f9p-button-container">
+  <div class="g6f9p-button-container" onclick="navigateToForm()">
       <button class="g6f9p-button">Order Now ↑</button>
   </div>
 
@@ -559,8 +578,8 @@
   </div>
 </section>
 <section >
-
-  
+  <button class="order-now-btn" onclick="navigateToForm()">Order Now ↑</button>
+</section>
 
 <script>
     const scriptURL = "https://script.google.com/macros/s/AKfycbzXlMxHfbG0pr7n4UGWDZg12OTPMSXi_ujDC150nwmheXRxSFKE3qSGPV9Xsc46TXeZ/exec"; // Replace with your Web App URL
@@ -620,6 +639,11 @@
             $("#mobileerror").html("");
         }
     }
+</script>
+<script>
+  function navigateToForm() {
+      document.getElementById('contact-form').scrollIntoView({ behavior: 'smooth' });
+  }
 </script>
 
 
