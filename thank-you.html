@@ -1,64 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mobile View Images</title>
     <style>
-        /* Inline CSS for mobile view */
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: flex-start;
-        }
+      /* Inline CSS for mobile view */
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+      }
 
-        h1 {
-            color: #ff6f61;
-            font-size: 24px;
-            margin: 20px 0 10px;
-            text-align: center;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            font-weight: bold;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            background: linear-gradient(90deg, #ff6f61, #ff9671);
-            color: white;
-            padding: 10px;
-            border-radius: 5px;
-            width: 90%;
-        }
+      h1 {
+        color: #ff6f61;
+        font-size: 24px;
+        margin: 20px 0 10px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: bold;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        background: linear-gradient(90deg, #ff6f61, #ff9671);
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        width: 90%;
+      }
 
-        .image-container {
-            width: 90%;
-            margin: 10px 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
+      .image-container {
+        width: 90%;
+        margin: 10px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
 
-        img {
-            width: 100%;
-            height: auto;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
     </style>
-</head>
-<body>
-
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "1268276641182214");
+      fbq("track", "PageView");
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=1268276641182214&ev=PageView&noscript=1"
+    /></noscript>
+  </head>
+  <body>
     <h1>Thanks for Choosing Us</h1>
 
     <div class="image-container">
-        <img src="./src/8.png" alt="Image 1">
+      <img src="./src/8.png" alt="Image 1" />
     </div>
     <div class="image-container">
-        <img src="./src/Thanks.webp" alt="Image 2">
+      <img src="./src/Thanks.webp" alt="Image 2" />
     </div>
-
-</body>
+  </body>
 </html>
