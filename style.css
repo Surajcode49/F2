@@ -954,30 +954,74 @@ body {
     color: #333;
 }
 
+/* Top Text Styling */
+.form-info-text {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-family: 'Arial', sans-serif;
+}
+
 /* Input Groups */
 .input-group {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    display: block;
 }
 
 .input-group label {
     display: block;
-    font-size: 20px;
+    font-size: 18px;
     color: #333;
-    float: left;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    font-family: 'Arial', sans-serif;
+    text-align: left; /* Ensures the label is aligned left */
 }
 
+/* Name and Contact Input Section */
 .input-group input {
-    width: 100%;
-    padding: 10px;
+    padding: 12px 15px;
     font-size: 16px;
     border: 1px solid #ddd;
     border-radius: 4px;
+    width: 100%;
     box-sizing: border-box;
-    transition: border 0.3s ease;
+    font-family: 'Arial', sans-serif;
 }
 
-/* On Focus Input Style */
+/* Phone Number Section Styling */
+.contact-number-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.contact-number-wrapper .prefix {
+    background-color: #f1f1f1;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    color: #333;
+    font-weight: 500;
+}
+
+.contact-number-wrapper input {
+    padding: 12px 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Input Focus Style */
 .input-group input:focus {
     border-color: #4CAF50;
     outline: none;
@@ -986,14 +1030,15 @@ body {
 /* Submit Button */
 #submit-btn {
     width: 100%;
-    padding: 12px;
-    font-size: 16px;
+    padding: 14px;
+    font-size: 18px;
     background-color: #4CAF50;
     color: #fff;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
+    font-family: 'Arial', sans-serif;
 }
 
 #submit-btn:disabled {
@@ -1002,6 +1047,8 @@ body {
 
 #submit-btn:hover {
     background-color: #45a049;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Message Display */
@@ -1024,6 +1071,7 @@ body {
         padding: 0px;
     }
 }
+
 
 
 
@@ -1054,3 +1102,7 @@ body {
 .contact-section-xyz {
     margin-top: 100px;
 }
+
+
+
+

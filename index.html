@@ -52,7 +52,7 @@
 
     <!-- New Product Info Section -->
     <div class="new-product-info">
-      <h1>Highly Researched Ayurvedic Height Growth Maximizer - Nature Max®</h1>
+      <h1>Highly Researched Ayurvedic Height growth booster - Nature Max®</h1>
       <p class="sub-text">Approved by Govt. of India</p>
 
       <!-- Info Buttons -->
@@ -89,20 +89,30 @@
     <div class="new">
       <!-- Quantity and Cart Section -->
       <section id="contact-form" class="contact-section-xyz">
+        <!-- Added top text -->
+        <p class="form-info-text">Fill in the details below, and we will call you soon</p>
+    
         <form name="google-sheet" id="order-info">
             <div class="input-group">
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" required placeholder="Enter your name">
             </div>
+    
             <div class="input-group">
                 <label for="contact">Contact Number</label>
-                <input type="tel" id="contact" name="contact" required placeholder="Enter your contact number" oninput="check_mobile_number(this.value)">
+                <!-- Adding +91 prefix and ensuring it's unremovable -->
+                <div class="contact-number-wrapper">
+                    <span class="prefix">+91</span>
+                    <input type="tel" id="contact" name="contact" required placeholder="Enter your contact number" oninput="check_mobile_number(this.value)" pattern="[0-9]{10}">
+                </div>
                 <div id="mobileerror"></div>
             </div>
+    
             <button type="submit" id="submit-btn">Submit</button>
             <div id="msg"></div>
         </form>
     </section>
+    
   </div>
 
       <!-- Feature Icons -->
@@ -454,7 +464,7 @@
       <p>Safety and quality are highly assured as our products proudly meet the stringent standards of ConsumerLab’s independent testing.*</p>
     </div>
     <div class="cnmb_qwer_image-wrapper">
-      <img src="./src/4.png" alt="Growth maximizer promotional image" class="cnmb_qwer_image">
+      <img src="./src/4.png" alt="growth booster promotional image" class="cnmb_qwer_image">
     </div>
   </div>
 </section>
